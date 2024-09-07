@@ -1,0 +1,17 @@
+
+h1{
+    font-family: Montserrat;
+    font-weight: 900;
+    text-align: center;
+}
+h2{
+    font-family: Montserrat;
+    font-weight: bold;
+}
+p{
+    font-family: Montserrat;
+    font-weight: lighter;
+}
+.me_photo{
+    width: 100%;
+}
