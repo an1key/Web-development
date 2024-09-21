@@ -1,0 +1,93 @@
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 6px;
+}
+
+.header{
+    color: white;
+    background-color: #232536;
+    padding: 25px 0;
+
+}
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.header__navigation{
+    max-width: 520px;
+    width: 100%;
+    display: flex;
+    gap: 32px;
+    align-items: baseline;
+}
+.header__logo{
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+.header__navigation-list{
+    display: flex;
+    gap: 24px;
+}
+.header__navigation-button{
+    color: #232536;
+    background-color: white;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 16px 48px;
+}
+.about{
+    color: white;
+    height: 720px;
+    background-image: url("./../img/1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.about__inner{
+    width: 60%;
+    padding-top: 128px;
+}
+
+.about__subtitle{
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 3px;
+}
+.about__subtitle__bold{
+    font-weight: 900;
+}
+.about__title{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -2px;
+    margin: 24px 0;
+}
+.about__address__yellow{
+    color: #ffd050;
+    margin-bottom: 16px;
+}
+.about__text{
+    margin-bottom: 48px;
+}
+.about__button{
+    background-color: #ffd050;
+    color: #232536;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 800;
+    padding: 16px 48px;
+}
