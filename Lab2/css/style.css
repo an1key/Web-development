@@ -1,0 +1,396 @@
+body{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+}
+h1, h2{
+    font-family: Archangelsk;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 63.3px;
+    color: black;
+}
+h3{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    text-align: left;
+    color: #52BEDC;
+
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 6px;
+
+}
+.header{
+    height: 1000px;
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header__inner{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__inner__icons{
+    display: flex;
+    max-width: 380px;
+    width: 100%;
+    gap: 40px
+}
+.header__inner__icon{
+    background-repeat: no-repeat;
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+.header__inner-youtube{
+    background-image: url("../img/youtube-logo.svg");
+}
+.header__inner-vk{
+    background-image: url("../img/vk-logo.svg");
+}
+.header__inner-fb{
+    background-image: url("../img/facebook-logo.svg");
+}
+.header__inner-instagram{
+    background-image: url("../img/instagram-logo.svg");
+}
+.header__inner-x{
+    background-image: url("../img/twitter-logo.svg");
+}
+.header__inner-twitch{
+    background-image: url("../img/twitch-logo.svg");
+}
+
+.about__bg{
+    width: 624px;
+    height: 369px;
+    clip-path: polygon(8% 0%, 100% 0%, 100% 85%, 92% 100%, 0% 100%, 0% 15%);
+    background-color: rgba(248,242,0,1);
+    float: right;
+    margin-top: 432px;
+}
+.about__inner{
+    padding: 70px;
+}
+.about__inner-text{
+    padding-bottom: 44px;
+}
+.about__inner-button{
+    padding: 19px 50px;
+    background-color: black;
+    color: rgba(248,242,0,1);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+}
+.information__section{
+    height: 777px;
+}
+.information__paragraph{
+    padding: 70px 0;
+}
+.information__text{
+    margin-top: 25px;
+}
+.text-blue{
+    color: #52BEDC;
+    font-weight: 700;
+}
+
+.information__section__pics{
+    display: flex;
+    gap: 32px;
+}
+.information__section__pics-vert{
+    display: block;
+}
+.information__section-pic{
+    clip-path: polygon(8% 0%, 100% 0%, 100% 85%, 92% 100%, 0% 100%, 0% 15%);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.information__section-pic1{
+    width: 460px;
+    height: 196px;
+    background-image: url("../img/info_pic1.jpg");
+    margin-bottom: 32px;
+}
+.information__section-pic2{
+    width: 460px;
+    height: 196px;
+    background-image: url("../img/info_pic2.jpg");
+
+}
+.information__section-pic3{
+    width: 788px;
+    height: 424px;
+    background-image: url("../img/info_pic3.jpg");
+
+}
+
+.transition-black{
+    background-image: url("../img/transition_black.jpg");
+    height: 70px;
+}
+.form__section{
+    height: 814px;
+    background-color: black;
+}
+.form__section__head{
+    display: flex;
+}
+.form__section__logo{
+    width: 132px;
+    height: 132px;
+    background-image: url("../img/form_head_logo.svg");
+}
+.form__section__header{
+    color: white;
+}
+.form__section__logo{
+    margin-top: 15px;
+}
+.form__section__header{
+    margin-top: 70px;
+    padding-left: 32px;
+}
+.form__section__maintext{
+    max-width: 960px;
+    color:white;
+    margin-top: 25px;
+}
+
+
+
+.transition-black-yellow{
+    height: 70px;
+    background-image: url("../img/transition_black-yellow.jpg");
+}
+
+.monitor__info__section{
+    height: 676px;
+    background-color: #f8f200;
+}
+.monitor__info__inner{
+    display: flex;
+    gap: 32px;
+}
+.monitor__info__section__leftpart{
+    display: block;
+    margin-top: 70px;
+}
+.monitor__info__icons{
+    margin-top: 25px;
+    padding: 0 42px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.monitor__info__monitor_img{
+    width: 624px;
+    height: 430px;
+    background-image: url("../img/monitor.png");
+}
+
+.monitor__info__icon-hp{
+    width: 80px;
+    height: 80px;
+    background-image: url("../img/hp-logo.svg");
+}
+.monitor__info__icon-x{
+    width: 90px;
+    height: 20px;
+    background-image: url("../img/x-logo.svg");
+}
+.monitor__info__icon-cyberpunk{
+    width: 320px;
+    height: 80px;
+    background-image: url("../img/Cyberpunk_2077_logo1.svg");
+}
+.monitor__info__header{
+    margin-top: 70px;
+}
+.monitor__info__text{
+    margin-top: 25px;
+}
+.monitor__info__plus{
+    margin-top: 25px;
+    display: block;
+
+}
+.monitor__info__plus__textstring{
+    display: flex;
+    gap: 10px;
+    align-content: baseline;
+    margin-bottom: 15px;
+}
+.monitor__info__plus__icon{
+    width: 32px;
+    height: 32px;
+}
+.monitor__info__plus__text{
+    line-height: 21.09px;
+    align-content: center;
+}
+.colors-icon{
+    background-image: url("../img/color_lens-icon.svg");
+}
+.auto-awesome-icon{
+    background-image: url("../img/auto_awesome-icon.svg");
+}
+.auto-awesome-motion-icon{
+    background-image: url("../img/auto_awesome_motion-icon.svg");
+}
+.monitor__info__more{
+    margin-top: 40px;
+}
+.monitor__info__more__button{
+    padding: 19px 50px;
+    background-color: black;
+    color: #f8f200;
+    font-weight: 700;
+    line-height: 21.09px;
+
+
+}
+
+.buy_game__section{
+    height: 717px;
+    background-color: black;
+    gap: 32px;
+    display: flex;
+}
+.buy_game__section__bg{
+    width: 50%;
+    height: 717px;
+    background-image: url("../img/buy_game_background.jpg");
+    background-position: center;
+}
+.buy_game__section__info__header{
+    margin-top: 70px;
+    color: white;
+}
+.buy_game__section__info__complect{
+    margin-top: 25px;
+}
+.buy_game__section__info__platform{
+    margin-top: 70px;
+}
+.buy_game__section__info__complect__textstring{
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+.buy_game__section__info__complect__icon{
+    width: 32px;
+    height: 32px;
+}
+.disk-icon{
+    background-image: url("../img/disk-icon.svg");
+}
+.wysiwyg-icon{
+    background-image: url("../img/wysiwyg-icon.svg");
+}
+.collections-icon{
+    background-image: url("../img/collections-icon.svg");
+}
+.buy_game__section__info__complect__text{
+    line-height: 21.09px;
+    color: white;
+}
+.icon-pc{
+    width: 62px;
+    height: 36px;
+    background-image: url("../img/pc-icon.svg");
+}
+.icon-stadia{
+    width: 58px;
+    height: 52px;
+    background-image: url("../img/stadia-logo.svg");
+}
+.icon-xbox{
+    width: 178px;
+    height: 36px;
+    background-image: url("../img/xbox-one-logo.svg");
+}
+.icon-ps{
+    width: 168px;
+    height: 36px;
+    background-image: url("../img/ps-logo.svg");
+}
+.buy_game__section__info__platform__icons{
+    margin-top: 25px;
+    padding-bottom: 50px;
+    display: block;
+
+}
+.buy_game__section__info__platform__icon__row{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 50px;
+}
+
+.footer{
+    height: 100px;
+    background-color: white;
+}
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+
+}
+.cyberpunk-logo{
+    width: 296px;
+    height: 74px;
+    background-image: url("../img/Cyberpunk_2077_logo_2.svg");
+}
+.cd-project-logo{
+    width: 173px;
+    height: 74px;
+    background-image: url("../img/CD_Projekt_logo.svg");
+}
+.footer__icons{
+    display: flex;
+    padding: 13px 0;
+    gap: 32px;
+}
+.footer__links{
+    display: flex;
+    padding: 40px 0;
+    gap: 32px;
+}
+.footer__link{
+    line-height: 21.09px;
+
+}
+.copyright{
+    background-color: black;
+}
+.copyright-text{
+    color: white;
+    font-size: 12px;
+    line-height: 14.06px;
+    align-items: center;
+    text-align: center;
+    padding: 13px;
+}
+@font-face {
+font-family: "Archangelsk";
+    src: url("../fonts/Archangelsk.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
