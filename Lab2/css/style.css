@@ -170,9 +170,84 @@ h3{
     color:white;
     margin-top: 25px;
 }
+.form__section__block{
+    margin-top: 35px;
+    display: flex;
+}
+.form__section__form{
+    max-width: 460px;
+    width: 100%;
+    margin-top: 73px;
+}
+.section__two-input
+{
+    width: 100%;
+    background-color: #000000;
+    border: none;
+    border-bottom: 1px solid #777777;
+    font-family: 'Roboto-Light';
+    font-size: 18px;
+    line-height: 21px;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 35px;
+}
+.section__two-fileinput{
+    width: 100%;
+    height: 120px;
+    color: white;
+    align-content: center;
+    border-style: dashed;
+    border-color: #777777;
+    border-radius: 1px;
+    text-align: center;
+}
+.section__two-fileinput_input{
+    text-decoration: underline;
+}
+.section__two-fileinput_text{
+    margin-top: 7px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14.06px;
+}
 
+.section__two__send{
+    margin-top: 45px;
+}
+.section__two__send__button{
+    padding: 19px 50px;
+    background-color: #f8f200;
+    color: black;
+    font-weight: 700;
+    line-height: 21.09px;
+}
+.section__two__send__accept{
+    margin-top: 25px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.section__two__send__accept__check{
+    background-color: black;
+    border-color: white;
+    border-radius: 5px;
+}
+.section__two__send__accept__text{
+    color: white;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14.06px;
+}
+.form__section__consoles{
+    max-width: 788px;
+    width: 100%;
+    height: 456px;
+    background-image: url("../img/consoles.png");
+    background-repeat: no-repeat;
+    background-position: center;
 
-
+}
 .transition-black-yellow{
     height: 70px;
     background-image: url("../img/transition_black-yellow.jpg");
@@ -261,8 +336,6 @@ h3{
     color: #f8f200;
     font-weight: 700;
     line-height: 21.09px;
-
-
 }
 
 .buy_game__section{
