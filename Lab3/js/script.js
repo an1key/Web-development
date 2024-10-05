@@ -10,7 +10,23 @@ const slider = document.getElementById('slider__inner');
 const buttonPrev = document.getElementById('btn_prev');
 const buttonNext = document.getElementById('btn_next');
 
+let currentPicture = 0;
+slider.style.right = "0px";
 
+
+buttonPrev.addEventListener("click", (event) => {
+    currentPicture = (currentPicture + 6 - 1) % 6;
+    moveToPic(currentPicture);
+})
+buttonNext.addEventListener("click", (event) => {
+    currentPicture = (currentPicture + 1) % 6;
+    moveToPic(currentPicture);
+})
+
+function moveToPic(numberOfPic){
+    console.log(numberOfPic);
+    slider.style.right = `${currentPicture * 500}px`;
+}
 function isValidPhone(phone) {
     return /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/.test(phone);
 }
