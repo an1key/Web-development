@@ -19,13 +19,13 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .slider{
     display: flex;
     margin-top: 20px;
     width: 500px;
-    border: 1px red solid;
     overflow-x: hidden;
 }
 
@@ -34,6 +34,7 @@ p{
     width: 3000px;
     position: relative;
     right: 0px;
+    transition: right 0.5s ease-in-out;
 }
 
 .slider__item {
@@ -60,10 +61,27 @@ p{
     background-image: url("../img/6.png");
 }
 
-.slider__btn_prev:hover ~ .slider__wrapper .slider__item {
-    transform: translateX(500px);
+.slider__buttons {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    gap: 500px;
+}
+.slider__btn{
+    width: 96px;
+    height: 96px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 
-.slider__btn_next:hover ~ .slider__wrapper .slider__item {
-    transform: translateX(-500px);
+.slider__btn_prev {
+    background-image: url("../img/arrow.png");
+    background-size: cover;
+    transform: rotate(180deg);
+}
+.slider__btn_next {
+    background-image: url("../img/arrow.png");
+    background-size: cover;
 }
