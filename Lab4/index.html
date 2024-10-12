@@ -12,10 +12,10 @@
         <h1>Crypto Calculator</h1>
     </header>
     <main>
-        <div class="converter">
+        <form class="converter" id="form">
             <div class="currency-input">
                 <label for="cryptoAmount">Amount</label>
-                <input type="number" id="cryptoAmount" placeholder="Enter amount">
+                <input type="number" id="cryptoAmount" placeholder="Enter amount" step="0.000001">
             </div>
             <div class="currency-select">
                 <label for="cryptoFrom">From</label>
@@ -33,10 +33,10 @@
                     <option value="btc">Bitcoin (BTC)</option>
                 </select>
             </div>
-            <button id="convertBtn">Convert</button>
-        </div>
+            <button id="convertBtn" type="submit">Convert</button>
+        </form>
         <div class="result">
-            <p id="resultText">Conversion Result: -</p>
+            <p id="resultText">0.00</p>
         </div>
     </main>
     <script src="scripts/script.js"></script>
